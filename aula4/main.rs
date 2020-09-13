@@ -49,7 +49,7 @@ fn obter_opcoes_validas() -> HashMap<String, Callback> {
 
 fn help() {
     println!("Software em Rust que conta a quantidade de linhas e palavras (dividido por espaço).\n");
-    println!("\tPor padrão o o sotware apenas lê o arquivo texto.");
+    println!("\tPor padrão o software apenas lê o arquivo texto.");
     println!("\t–l só exibe a quantidade de linhas");
     println!("\t–w só exibe a quantidade de palavras\n");
 }
